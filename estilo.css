@@ -1,0 +1,39 @@
+/* remover margens inseridas pelo navefador*/
+*{ margin: 0;};
+
+/* TAGS */
+header{
+    height: 100PX;/* ALTURA */
+    background-color: lightcoral;/* fundo: laranjado claro */
+}
+
+section{
+    height: 200px;/* altura */
+    width: 70%;/* largura */
+    background-color: aqua;/* fundo */
+    float: left;/* alinhar a direita */
+}
+aside{
+    height: 200px;/* altura */
+    width: 30%;/* largura */
+    background-color: green;/* cor de fundo */
+    float: right;/* alinhar a direita */
+}
+footer{
+    clear: both;/* corregir problema de alinhamento */
+    height: 30%;/* largura */
+    background-color: grey;/* fundo cinza */
+    text-align: center;/* texto centralizado */
+}
+
+/* id */
+
+#logo{
+    color:brown;/* cor do texto vermelho escuro */
+    font-size: large;/*fonte maior*/
+    text-align: center;/* texto centralizado */
+}
+/* class */
+.texto{
+    color:darkmagenta;
+}
